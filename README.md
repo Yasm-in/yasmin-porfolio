@@ -18,7 +18,7 @@ This repository contains my personal portfolio website, built with HTML and CSS.
 
 ## Project Structure
 
-- `Index.html` - Main portfolio page
+- `index.html` - Main portfolio page
 - `Style.css` - Styling for the portfolio
 - `assets/` - Supporting files
 - `Img/` - Images used in the website
@@ -26,7 +26,7 @@ This repository contains my personal portfolio website, built with HTML and CSS.
 ## Run Locally
 
 1. Open the folder in your editor.
-2. Open `Index.html` in your browser.
+2. Open `index.html` in your browser.
 
 ## Contact
 
