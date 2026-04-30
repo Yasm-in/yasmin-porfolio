@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasmin Adan - CV</title>
+    <style>
+        :root {
+            --text: #0f172a;
+            --muted: #475569;
+            --line: #cbd5e1;
+            --accent: #1d4ed8;
+            --bg: #f8fafc;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: var(--text);
+            background: var(--bg);
+            line-height: 1.55;
+        }
+
+        .page {
+            max-width: 900px;
+            margin: 32px auto;
+            background: #ffffff;
+            border: 1px solid var(--line);
+            padding: 34px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2rem;
+            letter-spacing: 0.4px;
+        }
+
+        .contact {
+            margin-top: 6px;
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+
+        .section {
+            margin-top: 24px;
+        }
+
+        .section h2 {
+            font-size: 0.96rem;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin: 0 0 8px 0;
+        }
+
+        .divider {
+            border-top: 1px solid var(--line);
+            margin-top: 6px;
+        }
+
+        p {
+            margin: 8px 0;
+        }
+
+        ul {
+            margin: 8px 0 0 20px;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .job-title {
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .meta {
+            color: var(--muted);
+            margin-bottom: 6px;
+        }
+
+        .project {
+            margin-top: 10px;
+        }
+
+        @media print {
+            body {
+                background: #ffffff;
+            }
+
+            .page {
+                margin: 0;
+                border: 0;
+                max-width: 100%;
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="page">
+        <header>
+            <h1>YASMIN ADAN</h1>
+            <p class="contact">Nairobi, Kenya | +254710404985 | yasminadan0001@gmail.com | LinkedIn: Yasmin Adan</p>
+        </header>
+
+        <section class="section">
+            <h2>Professional Summary</h2>
+            <div class="divider"></div>
+            <ul>
+                <li>Computer Science student awaiting graduation, focused on software development with strengths in web development, UI/UX, and beginner AI integration.</li>
+                <li>Builds practical, user-focused systems end to end, from interface design to backend integration and testing.</li>
+                <li>Strong networking and cybersecurity foundation with consistent hands-on project delivery and improvement.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Education</h2>
+            <div class="divider"></div>
+            <p class="job-title">Bachelor of Science in Computer Science</p>
+            <p class="meta">Umma University - Expected Graduation: June 2027</p>
+            <p class="job-title">Kenya Certificate of Secondary Education (KCSE)</p>
+            <p class="meta">Kenya High School - 2019 to 2022 | Grade: B+</p>
+        </section>
+
+        <section class="section">
+            <h2>Certifications</h2>
+            <div class="divider"></div>
+            <ul>
+                <li>Cisco Certified Network Associate (CCNA) - 2024</li>
+                <li>CompTIA Network+ - 2023</li>
+                <li>Cisco Certified Operating Systems - 2024</li>
+                <li>Artificial Intelligence Certificate for Academic Excellence</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Technical Skills</h2>
+            <div class="divider"></div>
+            <ul>
+                <li><strong>Web Development:</strong> HTML, CSS, Responsive Design, Firebase Integration, SQL</li>
+                <li><strong>Programming:</strong> JavaScript, Python</li>
+                <li><strong>Tools:</strong> Firebase, PostgreSQL, Windows and Linux</li>
+                <li><strong>Networking Knowledge:</strong> TCP/IP, Routing and Switching, Troubleshooting</li>
+                <li><strong>Other:</strong> Technical Documentation, Problem Solving, User Support, Team Collaboration</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Project Experience</h2>
+            <div class="divider"></div>
+            <div class="project">
+                <p class="job-title">Merciful Health CRM System</p>
+                <ul>
+                    <li>Built a healthcare CRM to centralize patient records, appointment tracking, and follow-up management in one workflow.</li>
+                    <li>Implemented role-aware views and structured dashboard flows to improve day-to-day staff coordination.</li>
+                    <li><strong>Tools:</strong> HTML, CSS, JavaScript, Flask, SQLite</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <p class="job-title">LockedIn Student App (formerly StudyMatch)</p>
+                <ul>
+                    <li>Developed a student matching platform that connects learners by subject, schedule, and study goals.</li>
+                    <li>Built responsive interfaces and integrated backend matching logic to improve usability and consistency.</li>
+                    <li><strong>Tools:</strong> JavaScript, Flask API, PostgreSQL, Responsive CSS</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <p class="job-title">Smart FAQ AI Assistant</p>
+                <ul>
+                    <li>Created an AI-based FAQ assistant to classify user questions and return relevant support answers.</li>
+                    <li>Added confidence scoring and fallback responses to handle unclear inputs more reliably.</li>
+                    <li><strong>Tools:</strong> Python, Flask, Scikit-learn, JavaScript</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Languages</h2>
+            <div class="divider"></div>
+            <ul>
+                <li>English - Fluent</li>
+                <li>Swahili - Fluent</li>
+                <li>Somali - Fluent</li>
+                <li>French - Basic</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
